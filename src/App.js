@@ -1,8 +1,8 @@
 import React from 'react';
+import TareasLista from './TareasLista';
 
 function App() {
-  return <div> ¡Bienvenido al curso de React! </div>
-  
+  return <TareasLista />
 }
 
 export default App;
