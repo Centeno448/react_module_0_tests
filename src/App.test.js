@@ -6,7 +6,7 @@ import TareasLista from "./TareasLista"
 
 configure({ adapter: new Adapter() });
 
-test('Renders child component', () => {
+test('App.js tiene componente hijo TareasLista.js - Asegurate de renderizar el componente <TareasLista> dentro de App.js', () => {
   const wrapper = shallow(<App />);
   expect(wrapper.find(TareasLista).length).toBe(1);
 });
